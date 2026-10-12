@@ -14,3 +14,8 @@ a { color:var(--red); }
 nav { display:flex; gap:18px; flex-wrap:wrap; margin-top:32px; font-weight:600; }
 .lang { border-top:1px solid #e4e0d8; margin-top:40px; padding-top:8px; }
 [dir=ltr] { text-align:left; }
+ul { padding-inline-start: 22px; }
+li { margin: 4px 0; }
+table { border-collapse: collapse; width: 100%; margin: 8px 0; background: var(--card); border-radius: 12px; overflow: hidden; }
+th, td { padding: 8px 12px; border-bottom: 1px solid #ece8e0; vertical-align: top; }
+th { text-align: start; font-weight: 700; }

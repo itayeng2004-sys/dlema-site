@@ -1,7 +1,7 @@
 <!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="favicon.png"><link rel="stylesheet" href="/fonts/fonts.css"><link rel="stylesheet" href="style.css"><title>Dlema – מדיניות פרטיות · Privacy Policy</title></head><body><main>
 <header><img src="icon.png" alt=""><a href="/">Dlema</a></header>
 <h1>מדיניות פרטיות</h1>
-<p class="muted">עודכן לאחרונה: 12 באוקטובר 2026</p>
+<p class="muted">עודכן לאחרונה: 13 באוקטובר 2026</p>
 
 <div class="card">
 <b>בקצרה</b>
@@ -31,7 +31,7 @@
 <li><b>דיווח על טעות:</b> המקום, הסיבה, טקסט קצר אם כתבתם, והתאריך. בלי פרטים אישיים. אנחנו מקבלים אותו במייל.</li>
 <li><b>חיפוש חכם:</b> מה שכתבתם בחיפוש, השעה, ורשימת המקומות (עם המרחק מכם, אם אישרתם מיקום) נשלחים ל-Gemini של Google כדי למצוא מקומות מתאימים. אנחנו לא שומרים את החיפושים.</li>
 <li><b>ספירת לחיצות על "הזמן שולחן":</b> כשלוחצים על כפתור הזמנה (Ontopo, Tabit, טלפון או וואטסאפ), נשמר רק איזה מקום, איזה כפתור ומתי. בלי שום פרט עליכם או על הטלפון. זה עוזר לנו להבין אילו מקומות מעניינים. נמחק אחרי 13 חודשים.</li>
-<li><b>הגנה מפני שימוש לרעה:</b> כדי למנוע הצפה וחיובים מיותרים, השרת סופר כמה בקשות הגיעו מכל כתובת IP (בחיפוש, תמונות, מידע חי על מקומות, הזמנות, דיווחים). הספירות נמחקות אחרי יומיים.</li>
+<li><b>הגנה מפני שימוש לרעה:</b> כדי למנוע הצפה וחיובים מיותרים, השרת סופר כמה בקשות הגיעו מכל כתובת IP (בחיפוש, תמונות, מידע חי על מקומות, הזמנות, דיווחים). הספירות נמחקות אחרי יומיים. בדיווח "המקום סגור" נשמר בנוסף קוד מעורבל שנוצר מכתובת ה-IP (אי אפשר להפוך אותו חזרה לכתובת), כדי שאדם אחד לא יוכל להסתיר מקום לבד. הקוד נמחק אחרי 30 יום.</li>
 </ul>
 
 <h2>4. שירותים חיצוניים</h2>
@@ -59,6 +59,7 @@
 <tr><td>בקשות הזמנה</td><td>נמחקות אוטומטית 90 יום אחרי תאריך ההזמנה</td></tr>
 <tr><td>דיווחים על טעות</td><td>נמחקים אוטומטית אחרי 6 חודשים</td></tr>
 <tr><td>ספירות IP נגד הצפה</td><td>נמחקות אחרי יומיים</td></tr>
+<tr><td>קוד מעורבל של IP בדיווח "המקום סגור"</td><td>נמחק אחרי 30 יום</td></tr>
 <tr><td>יומני שרת של Supabase</td><td>ימים ספורים</td></tr>
 <tr><td>ספירת לחיצות על הזמנה (אנונימית)</td><td>13 חודשים</td></tr>
 <tr><td>דיווחי קריסות (Sentry)</td><td>עד 30 יום</td></tr>
@@ -85,7 +86,7 @@
 
 <div class="lang" dir="ltr">
 <h1>Privacy Policy</h1>
-<p class="muted">Last updated: October 12, 2026</p>
+<p class="muted">Last updated: October 13, 2026</p>
 
 <div class="card">
 <b>In short</b>
@@ -115,7 +116,7 @@
 <li><b>Mistake report:</b> the place, the reason, any short text you wrote, and the date. No personal details. We receive it by email.</li>
 <li><b>Smart search:</b> what you typed, the time, and the list of places (with your distance to each, if you allowed location) are sent to Google's Gemini to find matching places. We don't store searches.</li>
 <li><b>Counting "Book a table" taps:</b> when you tap a booking button (Ontopo, Tabit, phone or WhatsApp), we store only which place, which button and when. Nothing about you or your phone. It helps us see which places people are interested in. Deleted after 13 months.</li>
-<li><b>Abuse protection:</b> to stop flooding and unwanted costs, the server counts requests per IP address (search, photos, live place info, bookings, reports). These counts are deleted after two days.</li>
+<li><b>Abuse protection:</b> to stop flooding and unwanted costs, the server counts requests per IP address (search, photos, live place info, bookings, reports). These counts are deleted after two days. For a "the place is closed" report we also keep a scrambled code made from the IP address (it can't be turned back into the address), so one person can't hide a place alone. It is deleted after 30 days.</li>
 </ul>
 
 <h2>4. Outside services</h2>
@@ -143,6 +144,7 @@
 <tr><td>Booking requests</td><td>Deleted automatically 90 days after the booking date</td></tr>
 <tr><td>Mistake reports</td><td>Deleted automatically after 6 months</td></tr>
 <tr><td>IP counts for abuse protection</td><td>Deleted after two days</td></tr>
+<tr><td>Scrambled IP code for "the place is closed" reports</td><td>Deleted after 30 days</td></tr>
 <tr><td>Supabase server logs</td><td>A few days</td></tr>
 <tr><td>Booking-tap counts (anonymous)</td><td>13 months</td></tr>
 <tr><td>Crash reports (Sentry)</td><td>Up to 30 days</td></tr>

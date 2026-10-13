@@ -8,7 +8,7 @@
 <ul>
 <li>אפשר להשתמש בכל Dlema בלי חשבון ובלי לתת שום פרט.</li>
 <li>המיקום שלכם נשאר בטלפון. אנחנו לא מקבלים ולא שומרים אותו.</li>
-<li>אין פרסומות, אין כלי מעקב או סטטיסטיקה, ואנחנו לא מוכרים מידע לאף אחד. יש רק דיווח קריסות, בלי פרטים אישיים.</li>
+<li>אין פרסומות ואין מעקב בין אפליקציות, ואנחנו לא מוכרים מידע לאף אחד. יש דיווח קריסות וסטטיסטיקת שימוש אנונימית (אפשר לכבות), בלי שם, אימייל, טלפון או מיקום.</li>
 <li>מה שכן נשמר (חשבון, בקשת הזמנה, דיווח) נשמר בשרת באירלנד, נמחק אוטומטית אחרי זמן קבוע, ואפשר לבקש למחוק אותו בכל זמן.</li>
 </ul>
 </div>
@@ -31,6 +31,7 @@
 <li><b>דיווח על טעות:</b> המקום, הסיבה, טקסט קצר אם כתבתם, והתאריך. בלי פרטים אישיים. אנחנו מקבלים אותו במייל.</li>
 <li><b>חיפוש חכם:</b> מה שכתבתם בחיפוש, השעה, ורשימת המקומות (עם המרחק מכם, אם אישרתם מיקום) נשלחים ל-Gemini של Google כדי למצוא מקומות מתאימים. אנחנו לא שומרים את החיפושים.</li>
 <li><b>ספירת לחיצות על "הזמן שולחן":</b> כשלוחצים על כפתור הזמנה (Ontopo, Tabit, טלפון או וואטסאפ), נשמר רק איזה מקום, איזה כפתור ומתי. בלי שום פרט עליכם או על הטלפון. זה עוזר לנו להבין אילו מקומות מעניינים. נמחק אחרי 13 חודשים.</li>
+<li><b>סטטיסטיקת שימוש אנונימית:</b> כדי להבין מה עובד באפליקציה, היא שולחת אירועים כמו: פתיחת האפליקציה, טקסט החיפוש (בלי אימיילים ומספרים שנראים כמו טלפון) והאם החיפוש החכם ענה, לחיצה על סוג אוכל או מסנן, צפייה במקום (איזה מקום ומאיפה הגעתם אליו), לחיצה על כפתור הזמנה, הוספה/הסרה ממועדפים ופתיחת המפה. כל אלה מקושרים רק למספר אקראי שנוצר בטלפון, לא לחשבון, ובלי שם, אימייל, טלפון או מיקום (כתובת ה-IP לא נשמרת). נוסף אליהם מידע טכני: סוג הטלפון, מערכת ההפעלה, גרסת האפליקציה, שפה ואזור זמן. אפשר לכבות בכל רגע: "אודות וקרדיטים" ← "נתוני שימוש אנונימיים". מחיקת האפליקציה מוחקת את המספר האקראי.</li>
 <li><b>הגנה מפני שימוש לרעה:</b> כדי למנוע הצפה וחיובים מיותרים, השרת סופר כמה בקשות הגיעו מכל כתובת IP (בחיפוש, תמונות, מידע חי על מקומות, הזמנות, דיווחים). הספירות נמחקות אחרי יומיים. בדיווח "המקום סגור" נשמר בנוסף קוד מעורבל שנוצר מכתובת ה-IP (אי אפשר להפוך אותו חזרה לכתובת), כדי שאדם אחד לא יוכל להסתיר מקום לבד. הקוד נמחק אחרי 30 יום.</li>
 </ul>
 
@@ -42,6 +43,7 @@
 <li><b>Apple</b> – המפה באייפון (Apple Maps), ובעתיד כניסה עם Apple. <a href="https://www.apple.com/legal/privacy/">מדיניות</a></li>
 <li><b>Brevo</b> (צרפת) – שליחת מיילים: בקשות הזמנה ודיווחים (אלינו), וקודים לאישור אימייל ולאיפוס סיסמה (אליכם). <a href="https://www.brevo.com/legal/privacypolicy/">מדיניות</a></li>
 <li><b>Sentry</b> (שרתים באיחוד האירופי) – דיווח קריסות ושגיאות: מה השתבש בקוד, גרסת האפליקציה, סוג הטלפון ומערכת ההפעלה. בלי שם, אימייל, טלפון, פרטי הזמנה, חיפושים או כתובת IP. <a href="https://sentry.io/privacy/">מדיניות</a></li>
+<li><b>PostHog</b> (שרתים באיחוד האירופי) – סטטיסטיקת השימוש האנונימית שמתוארת למעלה. בלי שם, אימייל, טלפון, מיקום או כתובת IP. <a href="https://posthog.com/privacy">מדיניות</a></li>
 <li><b>Expo</b> – עדכוני תוכנה לאפליקציה. כשהאפליקציה בודקת אם יש עדכון, Expo מקבלת את גרסת האפליקציה, סוג הטלפון, כתובת IP ומספר התקנה אקראי. בלי שם או אימייל. <a href="https://expo.dev/privacy">מדיניות</a></li>
 <li><b>GitHub</b> – אחסון האתר dlema.app. כמו כל אתר, GitHub רושמת כתובות IP של מבקרים לצורכי אבטחה. <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">מדיניות</a></li>
 <li><b>Google Maps, Apple Maps, Waze, Ontopo, Tabit</b> – רק כשאתם לוחצים על ניווט או על קישור להזמנה. מאותו רגע אתם בשירות שלהם.</li>
@@ -49,7 +51,7 @@
 <p>חלק מהשירותים האלה עשויים לעבד מידע גם מחוץ לאיחוד האירופי (למשל בארה"ב), לפי ההגנות שהם מתחייבים אליהן בתנאים שלהם.</p>
 
 <h2>5. מה אנחנו לא עושים</h2>
-<p>אין פרסומות ואין כלי סטטיסטיקה או מעקב. יש רק דיווח קריסות (Sentry) כדי לתקן תקלות, וספירה אנונימית של לחיצות על כפתורי הזמנה, בלי פרטים אישיים. אנחנו לא עוקבים אחריכם בין אפליקציות ואתרים, ולא מוכרים, משכירים או מעבירים מידע לאף אחד לצורכי שיווק.</p>
+<p>אין פרסומות. יש דיווח קריסות (Sentry) כדי לתקן תקלות, סטטיסטיקת שימוש אנונימית (PostHog, ראו למעלה; אפשר לכבות), וספירה אנונימית של לחיצות על כפתורי הזמנה, בלי פרטים אישיים. אנחנו לא עוקבים אחריכם בין אפליקציות ואתרים, ולא מוכרים, משכירים או מעבירים מידע לאף אחד לצורכי שיווק.</p>
 
 <h2>6. כמה זמן אנחנו שומרים</h2>
 <table>
@@ -58,6 +60,7 @@
 <tr><td>פרטי חיבור (IP וסוג מכשיר)</td><td>עד שתתנתקו או שהחיבור יפוג</td></tr>
 <tr><td>בקשות הזמנה</td><td>נמחקות אוטומטית 90 יום אחרי תאריך ההזמנה</td></tr>
 <tr><td>דיווחים על טעות</td><td>נמחקים אוטומטית אחרי 6 חודשים</td></tr>
+<tr><td>סטטיסטיקת שימוש אנונימית (PostHog)</td><td>עד שנה</td></tr>
 <tr><td>ספירות IP נגד הצפה</td><td>נמחקות אחרי יומיים</td></tr>
 <tr><td>קוד מעורבל של IP בדיווח "המקום סגור"</td><td>נמחק אחרי 30 יום</td></tr>
 <tr><td>יומני שרת של Supabase</td><td>ימים ספורים</td></tr>
@@ -93,7 +96,7 @@
 <ul>
 <li>You can use all of Dlema without an account and without giving any details.</li>
 <li>Your location stays on your phone. We never receive or store it.</li>
-<li>No ads, no tracking or analytics tools, and we never sell data. Only crash reports, with no personal details.</li>
+<li>No ads, no tracking across apps, and we never sell data. Only crash reports and anonymous usage statistics (you can turn them off), with no name, email, phone or location.</li>
 <li>What we do keep (account, booking request, report) is stored on a server in Ireland, deleted automatically after a set time, and can be deleted on request at any time.</li>
 </ul>
 </div>
@@ -116,6 +119,7 @@
 <li><b>Mistake report:</b> the place, the reason, any short text you wrote, and the date. No personal details. We receive it by email.</li>
 <li><b>Smart search:</b> what you typed, the time, and the list of places (with your distance to each, if you allowed location) are sent to Google's Gemini to find matching places. We don't store searches.</li>
 <li><b>Counting "Book a table" taps:</b> when you tap a booking button (Ontopo, Tabit, phone or WhatsApp), we store only which place, which button and when. Nothing about you or your phone. It helps us see which places people are interested in. Deleted after 13 months.</li>
+<li><b>Anonymous usage statistics:</b> to understand what works in the app, it sends events such as: opening the app, the search text (without emails or phone-like numbers) and whether smart search answered, tapping a food type or filter, viewing a place (which place and where you came from), tapping a booking button, adding/removing favorites and opening the map. They are linked only to a random number created on your phone, not to an account, and include no name, email, phone or location (the IP address is not stored). Technical info is added: phone model, operating system, app version, language and time zone. You can turn it off anytime: "About & credits" → "Anonymous usage data". Deleting the app deletes the random number.</li>
 <li><b>Abuse protection:</b> to stop flooding and unwanted costs, the server counts requests per IP address (search, photos, live place info, bookings, reports). These counts are deleted after two days. For a "the place is closed" report we also keep a scrambled code made from the IP address (it can't be turned back into the address), so one person can't hide a place alone. It is deleted after 30 days.</li>
 </ul>
 
@@ -127,6 +131,7 @@
 <li><b>Apple</b> – the map on iPhone (Apple Maps), and later Sign in with Apple. <a href="https://www.apple.com/legal/privacy/">Policy</a></li>
 <li><b>Brevo</b> (France) – emails: booking requests and reports (to us), and email-confirmation and password-reset codes (to you). <a href="https://www.brevo.com/legal/privacypolicy/">Policy</a></li>
 <li><b>Sentry</b> (EU servers) – crash and error reports: what went wrong in the code, app version, phone model and operating system. No name, email, phone, booking details, searches or IP address. <a href="https://sentry.io/privacy/">Policy</a></li>
+<li><b>PostHog</b> (EU servers) – the anonymous usage statistics described above. No name, email, phone, location or IP address. <a href="https://posthog.com/privacy">Policy</a></li>
 <li><b>Expo</b> – app updates. When the app checks for an update, Expo receives the app version, phone type, IP address and a random install number. No name or email. <a href="https://expo.dev/privacy">Policy</a></li>
 <li><b>GitHub</b> – hosts the dlema.app website. Like any website host, GitHub logs visitors' IP addresses for security. <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">Policy</a></li>
 <li><b>Google Maps, Apple Maps, Waze, Ontopo, Tabit</b> – only when you tap directions or a booking link. From then on you're using their service.</li>
@@ -134,7 +139,7 @@
 <p>Some of these services may also process data outside the EU (for example in the US), under the safeguards they commit to in their terms.</p>
 
 <h2>5. What we don't do</h2>
-<p>No ads, and no analytics or tracking tools. We only use crash reports (Sentry) to fix problems, and an anonymous count of booking-button taps, with no personal details. We don't track you across apps and websites, and we don't sell, rent or share data with anyone for marketing.</p>
+<p>No ads. We use crash reports (Sentry) to fix problems, anonymous usage statistics (PostHog, see above; you can turn them off), and an anonymous count of booking-button taps, with no personal details. We don't track you across apps and websites, and we don't sell, rent or share data with anyone for marketing.</p>
 
 <h2>6. How long we keep data</h2>
 <table>
@@ -143,6 +148,7 @@
 <tr><td>Login details (IP and device type)</td><td>Until you log out or the login expires</td></tr>
 <tr><td>Booking requests</td><td>Deleted automatically 90 days after the booking date</td></tr>
 <tr><td>Mistake reports</td><td>Deleted automatically after 6 months</td></tr>
+<tr><td>Anonymous usage statistics (PostHog)</td><td>Up to 1 year</td></tr>
 <tr><td>IP counts for abuse protection</td><td>Deleted after two days</td></tr>
 <tr><td>Scrambled IP code for "the place is closed" reports</td><td>Deleted after 30 days</td></tr>
 <tr><td>Supabase server logs</td><td>A few days</td></tr>
